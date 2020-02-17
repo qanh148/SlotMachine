@@ -256,9 +256,9 @@ var scenes;
             this.statsLabel = new objects.Label("Jackpot:" + this.jackpot + "\nPlayer Money:" + this.playerMoney + "\nTurn:" + this.turn + "\nWins:" + this.winNumber + "\nLosses:" + this.lossNumber + "\nWin Ratio:" + (this.winRatio * 100).toFixed(2) + "%", "16px", "Consolas", "#ffffff", 80, 10, false);
             this.winOrLoseLabel = new objects.Label("", "32px", "Consolas", "#ff0000", 400, 40, false);
             //Reels
-            this.reel0Label = new objects.Image('./Assets/images/blank.png', 122, 188, false);
-            this.reel1Label = new objects.Image('./Assets/images/blank.png', 260, 224, true);
-            this.reel2Label = new objects.Image('./Assets/images/blank.png', 328, 188, false);
+            this.reel0Label = new objects.Image('./Assets/images/seven.png', 122, 188, false);
+            this.reel1Label = new objects.Image('./Assets/images/seven.png', 260, 224, true);
+            this.reel2Label = new objects.Image('./Assets/images/seven.png', 328, 188, false);
             // buttons
             this.spinButton = new objects.Button('./Assets/images/Circle_Red.png', 256, 410, true);
             this.resetButton = new objects.Button('./Assets/images/reset.png', 400, 410, true);
